@@ -51,3 +51,18 @@ li{
     align-items: center;
     border-bottom: 1px solid #ccc;
 }
+li.completed{
+    text-decoration: line-through;
+    color: #888;
+}
+.checkbox{
+    margin-right: 10px;
+}
+.delete{
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius:5px;
+}
