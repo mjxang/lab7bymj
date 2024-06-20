@@ -29,3 +29,14 @@ input[type="text"]{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+button{
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #5cb85c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4cae4c;
+}
