@@ -66,3 +66,6 @@ li.completed{
     cursor: pointer;
     border-radius:5px;
 }
+.delete:hover{
+    background: #c9302c;
+}
