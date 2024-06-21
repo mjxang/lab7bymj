@@ -1,11 +1,10 @@
-document.addEventListener("DOMContentLoaded"),
-  () => {
+document.addEventListener("DOMContentLoaded", () => {});
     const taskInput = document.getElementById("taskInput");
     const addTaskButton = document.getElementById("addTaskButton");
     const taskList = document.getElementById("taskList");
 
     const addTask = () => {
-      const taskText = taskInput.ariaValueMax.trim();
+      const taskText = taskInput.value.trim();
       if (taskText === "") {
         alert("Please enter a task.");
         return;
@@ -17,7 +16,7 @@ document.addEventListener("DOMContentLoaded"),
       checkbox.className = "checkbox";
 
       checkbox.addEventListener("change", (e) => {
-        e.target.parentElement.classList.toggle("Completed!");
+        e.target.parentElement.classList.toggle("Completed");
       });
       const taskContent = document.createTextNode(taskText);
 
